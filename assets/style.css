@@ -232,6 +232,13 @@ a:focus-visible, button:focus-visible {
   background:
     repeating-linear-gradient(135deg, rgba(31,92,77,0.04) 0 2px, transparent 2px 10px);
 }
+img.dossier-preview {
+  height: auto;
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  background: var(--paper-raised);
+}
 .dossier-text { margin: 0 0 1rem; color: #2B3546; }
 .dossier-ticker {
   font-family: var(--font-mono);
