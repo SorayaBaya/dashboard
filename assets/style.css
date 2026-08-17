@@ -158,36 +158,23 @@ a:focus-visible, button:focus-visible {
 .section-body p { margin: 0 0 1rem; color: #2B3546; max-width: 62ch; }
 .section-body p:last-child { margin-bottom: 0; }
 
-/* ---- Skills ledger ---- */
-.ledger {
+/* ---- Skills tags ---- */
+.tags {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
 }
-.ledger li {
-  display: grid;
-  grid-template-columns: 4.5rem 12rem 1fr;
-  gap: 1rem;
-  align-items: baseline;
-  padding: 0.85rem 0;
-  border-bottom: 1px solid var(--line);
-}
-.ledger-code {
+.tags li {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
-  color: var(--brass);
-}
-.ledger-name {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-}
-.ledger-desc {
-  font-size: 0.88rem;
-  color: var(--slate);
-}
-@media (max-width: 640px) {
-  .ledger li { grid-template-columns: 1fr; gap: 0.2rem; }
+  font-size: 0.85rem;
+  color: var(--bond-dark);
+  background: rgba(31,92,77,0.07);
+  border: 1px solid rgba(31,92,77,0.25);
+  border-radius: 2px;
+  padding: 0.5rem 0.9rem;
 }
 
 /* ---- Project dossiers ---- */
@@ -235,9 +222,11 @@ a:focus-visible, button:focus-visible {
 img.dossier-preview {
   height: auto;
   width: 100%;
+  min-width: 100%;
   display: block;
   object-fit: contain;
-  background: var(--paper-raised);
+  background: #FFFFFF;
+  border: 1px solid var(--line);
 }
 .dossier-text { margin: 0 0 1rem; color: #2B3546; }
 .dossier-ticker {
@@ -250,6 +239,52 @@ img.dossier-preview {
   margin: 0 0 1.3rem;
 }
 .dossier-ticker .fictif { color: var(--slate); }
+
+.dossier-structure {
+  margin-bottom: 1.3rem;
+}
+.dossier-structure-title {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--slate);
+  margin: 0 0 0.7rem;
+}
+.dossier-structure dl {
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+.dossier-structure dl > div {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.dossier-structure dt {
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  color: var(--ink);
+}
+.dossier-structure dd {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--slate);
+}
+@media (max-width: 640px) {
+  .dossier-structure dl > div { grid-template-columns: 1fr; gap: 0.2rem; }
+}
+
+.dossier-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--slate);
+  border-left: 2px solid var(--line);
+  padding-left: 0.9rem;
+  margin: 0 0 1.4rem;
+}
+
 .dossier-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 
 .btn {
