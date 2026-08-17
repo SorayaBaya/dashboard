@@ -204,29 +204,17 @@ a:focus-visible, button:focus-visible {
   font-size: 0.95rem;
 }
 .dossier-preview {
-  height: 160px;
-  border: 1px dashed var(--line);
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
   border-radius: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--slate);
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  line-height: 1.5;
   margin-bottom: 1.2rem;
-  background:
-    repeating-linear-gradient(135deg, rgba(31,92,77,0.04) 0 2px, transparent 2px 10px);
+  background: #FFFFFF;
 }
 img.dossier-preview {
-  height: auto;
-  width: 100%;
-  min-width: 100%;
-  display: block;
-  object-fit: contain;
-  background: #FFFFFF;
-  border: 1px solid var(--line);
+  max-width: 100%;
+  overflow: visible;
 }
 .dossier-text { margin: 0 0 1rem; color: #2B3546; }
 .dossier-ticker {
