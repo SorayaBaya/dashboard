@@ -22,6 +22,7 @@
     <dl class="meta-row">
       <div><dt>Contact</dt><dd><a href="mailto:Soraya.bah67@icloud.com">Soraya.bah67@icloud.com</a></dd></div>
       <div><dt>Profil</dt><dd><a href="https://www.linkedin.com/in/soraya-ahmed/" target="_blank" rel="noopener">LinkedIn</a></dd></div>
+      <div><dt>CV</dt><dd><a href="assets/CV_Soraya_Ahmed.pdf" download>Télécharger</a></dd></div>
     </dl>
   </div>
 </header>
@@ -73,8 +74,7 @@
         <h3>Tableau de bord régie immobilière</h3>
         <p class="dossier-sub">Suivi d'activité multi-agences — Suisse romande</p>
       </div>
-        <img class="dossier-preview" src="assets/apercu-agences.png" alt="Aperçu du tableau de bord régie immobilière">
-      </div>
+      <img class="dossier-preview" src="assets/apercu-agences.png" alt="Aperçu du tableau de bord régie immobilière">
       <p class="dossier-text">
         Pilotage de 5 agences fictives (Genève, Lausanne, Fribourg, Neuchâtel, Sion) :
         nombre d'objets en gestion, taux de vacance, effectifs, charges d'exploitation
@@ -114,8 +114,7 @@
         <h3>Tableau de bord fonds immobilier</h3>
         <p class="dossier-sub">Vue investisseur — NAV, LTV &amp; performance locative</p>
       </div>
-        <img class="dossier-preview" src="assets/apercu-fonds.png" alt="Aperçu du tableau de bord fonds immobilier">
-      </div>
+      <img class="dossier-preview" src="assets/apercu-fonds.png" alt="Aperçu du tableau de bord fonds immobilier">
       <p class="dossier-text">
         Suivi de 4 fonds immobiliers fictifs (résidentiel, commercial, mixte,
         propriété) : NAV mensuelle, LTV, taux d'occupation et d'encaissement,
@@ -163,7 +162,6 @@
       <p>Pour toute question sur ces modèles ou une opportunité — n'hésitez pas à me contacter.</p>
       <div class="dossier-actions">
         <a class="btn" href="mailto:Soraya.bah67@icloud.com">Écrire un e-mail</a>
-        <a class="btn btn-ghost" href="assets/CV_Soraya_Ahmed.pdf" download>Télécharger mon CV</a>
       </div>
     </div>
   </section>
